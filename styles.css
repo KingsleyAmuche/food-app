@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #d89423;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    background-color: rgba(113, 63, 18);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    color: #fff;
+}
+
+nav .menu,
+nav .icons ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+nav .menu li a,
+nav .icons ul li {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#14120edc, #130d01b3), url("https://media.istockphoto.com/id/1652432204/photo/family-sitting-around-table-at-home-enjoying-meal-together.jpg?s=612x612&w=0&k=20&c=ptl2ZeREq2M8P479HzNoL3viVyzkOAjwjnTFzcgJjxs=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.hero-container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.hero-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #d89423;
+}
+
+.hero-container p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.hero-button {
+    display: flex;
+    gap: 2rem;
+}
+
+.hero-button button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+}
+
+fon .hero-button button:hover {
+    background-color: #ff6347;
+}
+
+.btn1 {
+    background-color: #d89423;
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.about-container {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 50%;
+}
+
+.about-container h1 {
+    font-size: 2.5rem;
+}
+
+.about-container h3 {
+    font-size: 2rem;
+}
+
+.about-container p {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+}
+
+.content .btn1 {
+    background-color: #d89423;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.content .btn1:hover {
+    background-color: #ff6347;
+}
+
+.images {
+    display: flex;
+    gap: 2rem;
+    width: 50%;
+    min-height: 100%;
+}
+
+.images img {
+    width: 50%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.items-container {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#14120edc, #130d01b3), url("https://media.istockphoto.com/id/1652432204/photo/family-sitting-around-table-at-home-enjoying-meal-together.jpg?s=612x612&w=0&k=20&c=ptl2ZeREq2M8P479HzNoL3viVyzkOAjwjnTFzcgJjxs=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.items-container h1 {
+    font-display: flex;
+    font-size: 2.5rem;
+    color: #d89423;
+}
+
+.items-container h2 {
+    font-display: flex;
+    font-size: 1.7rem;
+    color: #ff6347;
+}
+
+.items-container p {
+    font-display: flex;
+    font-size: 24px;
+    color: #fff;
+}
+
+.items-container button {
+    font-display: flex;
+    padding: 1rem;
+}
+
+.items-container button:hover {
+    background-color: #ff6347;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding-top: 32px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.products h1 {
+    color: #d89423;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.product h1:hover {
+    color: aqua;
+}
+
+.product .funds {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    ;
+    cursor: pointer;
+}
+
+.product .funds:hover {
+    color: #ff6347;
+}
+
+.product .initial-price {
+    text-decoration: line-through;
+}
+
+.product {
+    padding: 1rem;
+    margin-bottom: 4rem;
+    flex-direction: column;
+}
+
+.product img {
+    width: 75%;
+}
+
+.drinking {
+    text-align: center;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+    background-image: linear-gradient(#14120edc, #130d01b3), url("https://media.istockphoto.com/id/1652432204/photo/family-sitting-around-table-at-home-enjoying-meal-together.jpg?s=612x612&w=0&k=20&c=ptl2ZeREq2M8P479HzNoL3viVyzkOAjwjnTFzcgJjxs=");
+    background-attachment: fixed;
+}
+
+.drinking h1 {
+    font-size: 1.5rem;
+    color: #ff6347;
+    margin-top: 5remm;
+}
+
+.drinking h2 {
+    color: #d89423;
+    padding-top: 1rem;
+}
+
+.drinking p {
+    color: #fff;
+    padding-top: 0.8rem;
+    padding-bottom: 0.5rem;
+}
+
+.drinking button:hover {
+    background-color: aqua;
+}
+
+.testimonial {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.testimonial-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial-header {
+    margin: 4rem 0 2rem 0;
+}
+
+.testimonial-header h2 {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.testimonial-header i {
+    color: #d89423;
+}
+
+.testimonial-person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0 4rem 0;
+}
+
+.testimonial-person img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-person h3 {
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    background-image: linear-gradient(#14120edc, #130d01b3), url("https://media.istockphoto.com/id/1652432204/photo/family-sitting-around-table-at-home-enjoying-meal-together.jpg?s=612x612&w=0&k=20&c=ptl2ZeREq2M8P479HzNoL3viVyzkOAjwjnTFzcgJjxs=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+.our-detail li:hover {
+    color: #ff6347;
+}
+
+.icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.3rem;
+}
+
+.icons .fa-facebook {
+    color: blue;
+}
+
+.icons .fa-instagram {
+    color: coral;
+}
+
+.icons .fa-twitter {
+    color: cornflowerblue;
+}
+
+.icons .fa-whatsapp {
+    color: springgreen;
+}
+
+@media only screen and (max-width: 768px) {
+
+    nav .menu,
+    nav .icons ul {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .about-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .content,
+    .images {
+        width: 100%;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .images img {
+        height: auto;
+    }
+
+    .hero-button {
+        flex-direction: column;
+    }
+
+    .products {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-content {
+        flex-direction: column;
+    }
+
+    grid-template-columns: 1fr;
+}
